@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dmvyipntjwor7"
+
+[deps]
+
+files=["res://mods/language_manger/localization/localization_dict.en.translation", "res://mods/language_manger/localization/localization_dict.zh_CN.translation"]
+
+source_file="res://mods/language_manger/localization/localization_dict.csv"
+dest_files=["res://mods/language_manger/localization/localization_dict.en.translation", "res://mods/language_manger/localization/localization_dict.zh_CN.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

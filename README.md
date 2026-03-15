@@ -62,11 +62,16 @@ This is an expandable Lucid Blocks language pack. The game will automatically se
 
 ## 更新日志
 
-### 2026-03-15 - LocalizationPacks_1.0.0
+### 2026-03-15 - 1.0
 
 - 新增中文字体 [zpix 像素字体](https://github.com/SolidZORO/zpix-pixel-font)
 - 新增语言词典、中文翻译
   （来自 Discord 用户 [@milk_for_free](https://github.com/MILK-FOR-FREE)，感谢 TA 的无私贡献）
 - 修正生命值显示错位问题
 - 新增对 [@saucedheca](https://github.com/saucedheca) 的 MOD（Lucid-Blocks-Save-Recipes-Mod）兼容
+
+### 2026-03-16 - 1.2
+
+- 重做了翻译文件注册机制
+- 动态处理游戏文本进行翻译
 
