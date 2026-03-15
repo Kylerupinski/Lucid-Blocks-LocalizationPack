@@ -1,0 +1,837 @@
+id,en,zh_CN
+config,config,设置
+awaken,awaken,这是梦
+qualia,qualia,感质空间
+(exit game),(exit game),<退出游戏>
+my qualia,my qualia,感质档案
+start dreaming,start dreaming,进入梦境
+how to play,how to play,操作方式
+pick a graphics option,pick a graphics option,选择图形设置
+confirm,confirm,确认
+minimum,minimum,土豆
+low,low,低
+medium,medium,中等
+high,high,高
+save and quit,save and quit,保存并退出
+resume,resume,返回
+suspended,suspended,暂停
+possessions,possessions,物品栏
+cache cube,cache cube,缓存方块
+cabinet,cabinet,储物柜
+funnel,funnel,漏斗
+crucible,crucible,坩埚
+Display,Display,显示
+Audio,Audio,音频
+Controls,Controls,控制
+visual quality,visual quality,画面质量
+render distance,render distance,渲染距离
+render scale,render scale,渲染倍率
+fps limit,fps limit,帧率限制
+fov,fov,视野范围
+shadow quality,shadow quality,阴影质量
+weather quality,weather quality,天气质量
+fog quality,fog quality,雾气质量
+pixelation,pixelation,像素化程度
+brightness,brightness,亮度
+vsync,vsync,垂直同步
+camera shake,camera shake,镜头抖动
+on-screen hand,on-screen hand,显示手部模型
+hand tint,hand tint,手部色调
+global lighting,global lighting,全局光照
+indirect lighting,indirect lighting,间接光照
+reflections,reflections,反射
+ambient occlusion,ambient occlusion,环境光遮蔽
+Bloom,Bloom,泛光
+all volume,all volume,总音量
+sfx volume,sfx volume,音效音量
+music volume,music volume,音乐音量
+ui sfx volume,ui sfx volume,界面音效音量
+misophonia,misophonia,恐音症模式
+general,general,常规
+fly boost toggle,fly boost toggle,切换飞行加速
+crouch toggle,crouch toggle,切换蹲伏
+invert look y,invert look y,反转Y轴
+left-handed,left-handed,左手模式
+camera sensitivity,camera sensitivity,镜头灵敏度
+cursor sensitivity,cursor sensitivity,指针灵敏度
+save changes,save changes,保存更改
+factory settings,factory settings,恢复默认设置
+walk forwards,walk forwards,前移
+walk left,walk left,左移
+walk backwards,walk backwards,后移
+walk right,walk right,右移
+hit,hit,打击
+act,act,互动
+jump,jump,跳跃
+fly boost,fly boost,飞行加速
+crouch,crouch,蹲伏
+drop item,drop item,丢下物品
+inventory,inventory,物品
+menu left,menu left,菜单左移
+menu right,menu right,菜单右移
+hotbar 1,hotbar 1,快捷栏 1
+hotbar 2,hotbar 2,快捷栏 2
+hotbar 3,hotbar 3,快捷栏 3
+hotbar 4,hotbar 4,快捷栏 4
+hotbar 5,hotbar 5,快捷栏 5
+hotbar 6,hotbar 6,快捷栏 6
+quick item move 1,quick item move 1,快捷移动物品 1
+quick item move 2,quick item move 2,快捷移动物品 2
+item collect,item collect,拾取物品
+item half deposit,item half deposit,存入一半
+show hud,show hud,显示 HUD
+show stats,show stats,显示统计信息
+fullscreen,fullscreen,全屏
+hotbar next,hotbar next,下一个快捷栏
+hotbar back,hotbar back,上一个快捷栏
+new qualia,new qualia,新感质
+create new qualia,create new qualia,创建新感质
+qualia config,qualia config,感质配置
+(divine),(divine),（成神）
+(wrath),(wrath),（错乱）
+(turvy),(turvy),（受难）
+yes,yes,是
+clear,clear,清除
+accept,accept,接受
+enter a name...,enter a name...,输入名称
+instance new qualia,instance new qualia,创造新空间
+dreams,dreams,梦境
+qualia name,qualia name,感质名称
+Appearance,Appearance,万象
+Experience,Experience,体验
+seed,seed,种子
+starting kit,starting kit,初始套装
+divine,divine,成为神
+turvy,turvy,错乱梦境
+wrathful,wrathful,受难
+"warning: ""divine"" will permanently disable achievements and progression for this qualia
+","warning: ""divine"" will permanently disable achievements and progression for this qualia
+",注意：选择“成为神”将永久禁用该感质的成就与进度。
+Delete,Delete,删除
+cancel,cancel,取消
+are you sure you want to delete this qualia?,are you sure you want to delete this qualia?,确定要删除这个感质吗
+error,error,错误
+success,success,成功
+loading...,loading...,加载中...
+offer,offer,献礼
+make offering,make offering,给予献礼
+receive offering,receive offering,接受献礼
+past offerings,past offerings,往日献礼
+destroy forever,destroy forever,永久销毁
+sort by rating,sort by rating,按评分排序
+match version,match version,匹配版本
+the firmament can take several minutes to refresh,the firmament can take several minutes to refresh,天幕刷新可能需要几分钟。
+you are offline.,you are offline.,你已离线
+"warning: changes in the firmament may take several minutes to appear
+","warning: changes in the firmament may take several minutes to appear
+",注意：天幕中的修改可能需要几分钟上传。
+dormant pendant,dormant pendant,沉睡挂饰
+paraphernalia,paraphernalia,个人装具
+apotheosis,apotheosis,物质升华
+divinity,divinity,神权
+<awaiting input>,<awaiting input>,<等待输入>
+complete,complete,已完成
+"[shake rate=5.0 level=6 connected=0]the comfort of death...
+ [/shake]","[shake rate=5.0 level=6 connected=0]the comfort of death...
+ [/shake]","[shake rate=5.0 level=6 connected=0]死亡的慰藉…
+ [/shake]"
+you have bloomed. some of your attributes,you have bloomed. some of your attributes,花期已至，你的部分属性
+obtain a pendant that reveals a nearby tiamana leak,obtain a pendant that reveals a nearby tiamana leak,获得一件可感应附近提亚玛纳泄漏点的挂饰。
+tiamana seeker,tiamana seeker,提亚玛纳寻踪者
+# auto item/block translations,# auto item/block translations,
+a,a,a
+abble block,abble block,艾波方块
+accelo block,accelo block,加速方块
+agni capsule,agni capsule,阿耆尼胶囊
+ahuizotl capsule,ahuizotl capsule,阿维特索特尔胶囊
+air block,air block,空气方块
+alach capsule,alach capsule,阿拉斥胶囊
+aluminum block,aluminum block,铝方块
+ambiguous block,ambiguous block,多样的方块
+amethyst knife,amethyst knife,紫水晶小刀
+anger block,anger block,怒气方块
+appendage,appendage,肢体
+archangel capsule,archangel capsule,大天使胶囊
+arm extension,arm extension,延伸的手臂
+asphalt block,asphalt block,沥青方块
+aster,aster,翠菊
+axe,axe,斧
+azrael,azrael,亚兹拉尔
+b,b,b
+baal capsule,baal capsule,巴尔胶囊
+baguette,baguette,法棍面包
+ball essence,ball essence,球形源质
+ball shepach,ball shepach,球形形具
+ball wand,ball wand,球体权杖
+balloon,balloon,气球
+bead bracelet,bead bracelet,珠子手链
+bee capsule,bee capsule,蜜蜂胶囊
+beep block,beep block,蜂鸣方块
+berry,berry,浆果
+berry earring,berry earring,浆果耳环
+black plastic block,black plastic block,黑色塑料方块
+black sand block,black sand block,黑沙方块
+blasphemy block,blasphemy block,亵渎的方块
+blasphemy capsule,blasphemy capsule,亵渎的胶囊
+blessing cube,blessing cube,祝福方块
+blue grass,blue grass,蓝草
+blue grass block,blue grass block,蓝草方块
+blue lamp,blue lamp,蓝色灯
+blue plastic block,blue plastic block,蓝色塑料方块
+blush,blush,腮红
+boid capsule,boid capsule,集群胶囊
+bolus,bolus,药丸
+bomb,bomb,炸弹
+bone,bone,骨头
+bone pick,bone pick,骨制十字镐
+bookshelf block,bookshelf block,书架方块
+brick block,brick block,砖块
+bright grass block,bright grass block,鲜草方块
+brown plastic block,brown plastic block,棕色塑料方块
+bubble hat,bubble hat,气泡帽
+bubblebear capsule,bubblebear capsule,泡泡熊胶囊
+bubblebear egg,bubblebear egg,泡泡熊的蛋
+bug ring,bug ring,昆虫戒指
+bunny ears,bunny ears,兔耳
+buzz flower,buzz flower,嗡鸣花
+c,c,c
+cactus block,cactus block,仙人掌方块
+cardboard box,cardboard box,纸箱
+cat block,cat block,猫猫方块
+choker,choker,颈圈
+circuit block,circuit block,电路方块
+clay axe,clay axe,陶土斧
+clay block,clay block,陶土方块
+clay brick block,clay brick block,陶砖块
+clay lump,clay lump,陶土块
+clay pot,clay pot,陶罐
+clay shepach,clay shepach,陶土形具
+clay tile block,clay tile block,陶瓦方块
+clonaqualia block,clonaqualia block,感质克隆方块
+cobalt block,cobalt block,钴方块
+cold stone block,cold stone block,冷石方块
+comb block,comb block,蜂巢方块
+comfort block,comfort block,慰藉的方块
+concrete block,concrete block,混凝土方块
+cooked bubble flesh,cooked bubble flesh,熟气泡肉
+cooked fish corpse,cooked fish corpse,熟制鱼尸骸
+cooked noot flesh,cooked noot flesh,熟努努肉
+cooked sheep flesh,cooked sheep flesh,熟羊肉
+cooked wildebeest flesh,cooked wildebeest flesh,熟角马肉
+core block,core block,核心方块
+couch block,couch block,长沙发方块
+cristella's bane,cristella's bane,克里斯泰拉之灾
+crucible block,crucible block,坩埚
+cut wood block,cut wood block,切开的木头方块
+cyst,cyst,囊肿
+d,d,d
+dandelion,dandelion,蒲公英
+dark lamp,dark lamp,暗色灯
+debug block,debug block,调试方块
+debug block w,debug block w,调试方块 W
+dice,dice,骰子
+diffuse block,diffuse block,漫反射方块
+diorite block,diorite block,闪长岩方块
+direction block,direction block,方向方块
+dirt block,dirt block,泥土方块
+divine drill,divine drill,神性钻头
+dog block,dog block,狗狗方块
+dominion capsule,dominion capsule,统治胶囊
+dough ring,dough ring,面圈
+dried abble block,dried abble block,干燥的艾波方块
+druid dirt block,druid dirt block,德鲁伊泥土方块
+dry grass,dry grass,枯草
+dry leaf block,dry leaf block,枯叶方块
+duck bracelet,duck bracelet,小鸭手链
+duck earring,duck earring,小鸭耳环
+dybbuk's necklace,dybbuk's necklace,附鬼项链
+e,e,e
+empty bucket,empty bucket,空桶
+empty capsule,empty capsule,空胶囊
+essence block,essence block,源质方块
+eye,eye,眼球
+eye cyst block,eye cyst block,眼球囊肿方块
+f,f,f
+faith wand,faith wand,信仰权杖
+feather,feather,羽毛
+fiddlehead,fiddlehead,卷蕨
+fire,fire,火
+fire bomb,fire bomb,火焰弹
+fish capsule,fish capsule,鱼胶囊
+fish corpse,fish corpse,鱼的尸骸
+flesh block,flesh block,血肉方块
+flimsy hook,flimsy hook,劣质的钩子
+flionide block,flionide block,弗离化物
+flippers,flippers,蹼鞋
+floroid block,floroid block,酵体
+flower earring,flower earring,花朵耳环
+foe,foe,仇敌
+foliage picker,foliage picker,采叶器
+friend,friend,友人
+friend shepach,friend shepach,友人形具
+friend wand,friend wand,友人权杖
+fruit femme capsule,fruit femme capsule,果姬胶囊
+fruit seed,fruit seed,水果种子
+g,g,g
+gear,gear,齿轮
+gel block,gel block,凝胶方块
+gel bruiser,gel bruiser,凝胶打击者
+gel capsule,gel capsule,凝胶体胶囊
+glaggle token,glaggle token,微笑代币
+glaggler capsule,glaggler capsule,微笑胶囊
+gland,gland,腺体
+glass block,glass block,玻璃方块
+glass shard,glass shard,玻璃碎片
+glass tile block,glass tile block,玻璃瓦块
+glider glove,glider glove,滑翔手套
+gold block,gold block,金块
+golden boots,golden boots,金靴
+golem capsule,golem capsule,魔像胶囊
+goo,goo,粘液
+goo capsule,goo capsule,粘液体胶囊
+granite block,granite block,花岗岩方块
+grass,grass,草
+grass block,grass block,草方块
+grass grass,grass grass,艸
+grass grass block,grass grass block,艸方块
+grave,grave,坟墓
+green lamp,green lamp,绿色灯
+green plastic block,green plastic block,绿色塑料方块
+grill block,grill block,金属格栅
+guard cube,guard cube,护卫方块
+gyro fish capsule,gyro fish capsule,陀螺鱼胶囊
+gyro hook,gyro hook,陀螺钩
+h,h,h
+hair clip,hair clip,发夹
+hand wand,hand wand,手之权杖
+hate wand,hate wand,仇恨权杖
+haze hand,haze hand,迷雾之手
+heavy boots,heavy boots,重靴
+hinokagutsuchi,hinokagutsuchi,火之迦具土
+hope cube,hope cube,希望的方块
+i,i,i
+ice cube,ice cube,冰块
+ice pick,ice pick,冰镐
+ice shoes,ice shoes,冰鞋
+infested wood block,infested wood block,受感染的木头方块
+infinite absorber,infinite absorber,无限吸收器
+infinite spiller,infinite spiller,无限喷洒器
+j,j,j
+jade bomb,jade bomb,翡翠炸弹
+janqualia block,janqualia block,感质起始方块
+juice,juice,果汁
+k,k,k
+kali capsule,kali capsule,迦梨胶囊
+kelp,kelp,海带
+key axe,key axe,钥匙斧
+kila,kila,奇拉
+koadma block,koadma block,木灵方块
+kodama capsule,kodama capsule,木灵胶囊
+l,l,l
+lavender,lavender,薰衣草
+lavender block,lavender block,薰衣草方块
+leaf block,leaf block,树叶方块
+leaf pick,leaf pick,树叶十字镐
+leaky pendant,leaky pendant,渗漏挂饰
+letter cube,letter cube,字母方块
+leviathan capsule,leviathan capsule,利维坦胶囊
+light pincer,light pincer,光之钳
+limestone block,limestone block,石灰岩方块
+limestone tile block,limestone tile block,石灰岩瓦方块
+locket,locket,坠饰
+log block,log block,原木方块
+love block,love block,爱意的方块
+love ring,love ring,爱意戒指
+lucid block,lucid block,清醒的方块
+m,m,m
+mace,mace,晨星锤
+machination,machination,诡机
+magnetite,magnetite,磁铁矿
+magnetite ore block,magnetite ore block,磁铁矿石
+mana gel,mana gel,法力凝胶
+mana gem block,mana gem block,法力宝石块
+mana ore block,mana ore block,法力矿石
+manikin block,manikin block,人体模型方块
+manikin capsule,manikin capsule,人体模型胶囊
+marble,marble,大理石
+meat apparatus,meat apparatus,血肉装置
+meeshuu capsule,meeshuu capsule,米舒胶囊
+melon block,melon block,西瓜方块
+melon slice,melon slice,西瓜片
+mercury capsule,mercury capsule,水银胶囊
+mercury tendril,mercury tendril,水银触须
+metal block,metal block,金属块
+metal gel block,metal gel block,金属凝胶块
+metal golem block,metal golem block,金属魔像块
+metal golem capsule,metal golem capsule,金属魔像胶囊
+metal hook,metal hook,金属钩
+methuselah,methuselah,玛土撒拉
+mimic capsule,mimic capsule,宝箱怪胶囊
+mini gel block,mini gel block,微型凝胶块
+mirage block,mirage block,海市蜃楼方块
+moccos capsule,moccos capsule,莫科斯胶囊
+moss block,moss block,苔藓方块
+moss fuzz,moss fuzz,苔藓绒毛
+mud block,mud block,泥土方块
+multitool,multitool,多功能工具
+mutchroom block,mutchroom block,陌菇块
+n,n,n
+noot capsule,noot capsule,努努胶囊
+noot egg,noot egg,努努蛋
+nut,nut,坚果
+o,o,o
+obsidian block,obsidian block,黑曜石方块
+ofanim capsule,ofanim capsule,座天使胶囊
+omni hat,omni hat,全能帽
+onyx block,onyx block,缟玛瑙块
+oppleberry block,oppleberry block,奥珀莓块
+oppleberry slice,oppleberry slice,奥珀莓切片
+ornament block,ornament block,装饰方块
+osmium block,osmium block,锇块
+p,p,p
+paddle,paddle,划桨
+pale grass,pale grass,苍白草
+pale grass block,pale grass block,苍白草块
+pebble block,pebble block,卵石块
+pebble tile block,pebble tile block,卵石瓦块
+pepper,pepper,辣椒
+petal block,petal block,花瓣方块
+pickaxe,pickaxe,十字镐
+pimble block,pimble block,小团方块
+pink grass,pink grass,粉红草
+pink grass block,pink grass block,粉红草方块
+pink plastic block,pink plastic block,粉色塑料方块
+plastic pellet,plastic pellet,塑料颗粒
+plate block,plate block,盘子
+plum axe,plum axe,梅树斧
+plush,plush,玩偶
+popsicle,popsicle,冰棒
+preta capsule,preta capsule,饿鬼胶囊
+principality capsule,principality capsule,权天使胶囊
+prismatic block,prismatic block,棱镜方块
+processed meat block,processed meat block,加工肉块
+pulp block,pulp block,浆质
+purity ring,purity ring,纯洁戒指
+purple lamp,purple lamp,紫色灯
+q,q,q
+r,r,r
+raw bubblebear flesh,raw bubblebear flesh,生泡泡熊肉
+raw noot flesh,raw noot flesh,努努生肉
+raw sheep flesh,raw sheep flesh,生羊肉
+raw wildebeest flesh,raw wildebeest flesh,生角马肉
+red lamp,red lamp,红色灯
+red plastic block,red plastic block,红色塑料方块
+rejuvenation anchor,rejuvenation anchor,回春之锚
+rename pencil,rename pencil,命名铅笔
+revelation block,revelation block,启示方块
+revelation nut,revelation nut,启示坚果
+ribbon,ribbon,丝带
+rigid stone block,rigid stone block,坚实岩块
+rose,rose,玫瑰
+rust block,rust block,铁锈方块
+s,s,s
+s'more block,s'more block,夹心饼方块
+sand block,sand block,沙子方块
+sandstone block,sandstone block,沙岩方块
+scythe,scythe,镰刀
+seaweed,seaweed,海藻
+segment,segment,节段
+serpent ring,serpent ring,蛇环
+shale block,shale block,页岩方块
+sheep capsule,sheep capsule,绵羊胶囊
+shell,shell,贝壳
+shoal rock block,shoal rock block,浅滩石方块
+shovel,shovel,铲子
+silicon crystal,silicon crystal,硅晶体
+silver block,silver block,银块
+silver vessel,silver vessel,银器
+sky rock block,sky rock block,天石块
+snorkel,snorkel,潜水呼吸管
+snow block,snow block,雪块
+snow grass block,snow grass block,雪草方块
+snowy leaf block,snowy leaf block,积雪叶方块
+sodium lamp,sodium lamp,钠灯
+sponge block,sponge block,海绵块
+sponge shoes,sponge shoes,海绵鞋
+squirrel ring,squirrel ring,松鼠戒指
+star,star,星星
+star block,star block,星星方块
+steel window block,steel window block,钢制窗户
+stick,stick,木棍
+stone block,stone block,石头方块
+stranger,stranger,陌生者
+string,string,线
+string bracelet,string bracelet,线绳手链
+style seed,string bracelet,风格种子
+sulfur,sulfur,硫磺
+sulfur block,sulfur block,硫磺块
+sulfur ore block,sulfur ore block,硫磺矿石
+sulfurous sword,sulfurous sword,硫磺剑
+sun block,sun block,太阳方块
+sunny capsule,sunny capsule,晴天胶囊
+svargaqualia block,svargaqualia block,感质天界方块
+sword,sword,剑
+t,t,t
+teeth,teeth,牙齿
+temple brick block,temple brick block,神庙砖方块
+tendril block,tendril block,触须方块
+tendril ore block,tendril ore block,触须矿石
+tendril pick,tendril pick,触须十字镐
+tendril rapier,tendril rapier,触须迅捷剑
+thorn,thorn,荆棘
+thorn talisman,thorn talisman,荆棘护符
+tigerstone block,tigerstone block,虎纹石方块
+tile block,tile block,瓦片方块
+tofu,tofu,豆腐
+tooth block,tooth block,牙齿方块
+toy dog capsule,toy dog capsule,玩具狗胶囊
+tungsten appendage,tungsten appendage,钨制肢体
+u,u,u
+v,v,v
+varna,varna,种姓
+varnished wood block,varnished wood block,亮漆木方块
+vermin oracle block,vermin oracle block,神谕活体方块
+vermin vigil block,vermin vigil block,守望活体方块
+visognia flower,visognia flower,幻视之花
+vocal string,vocal string,声带
+vomit block,vomit block,呕吐物
+vyrm capsule,vyrm capsule,维姆胶囊
+w,w,w
+wallpaper block,wallpaper block,壁纸方块
+water,water,水
+water bomb,water bomb,水弹
+water bucket,water bucket,水桶
+wheat,wheat,小麦
+white lamp,white lamp,白色灯
+white plastic block,white plastic block,白色塑料方块
+white tile block,white tile block,白色瓦块
+wildebeest capsule,wildebeest capsule,角马胶囊
+wood scrap block,wood scrap block,碎木
+wooden pick,wooden pick,木十字镐
+wool,wool,羊毛
+worm capsule,worm capsule,蠕虫胶囊
+wrapper block,wrapper block,外包装
+x,x,x
+y,y,y
+yellow lamp,yellow lamp,黄色灯
+yellow plastic block,yellow plastic block,黄色塑料方块
+yhvh block,yhvh block,雅威方块
+yhvh capsule,yhvh capsule,雅威胶囊
+z,z,z
+zany block,zany block,滑稽方块
+zany thing,zany thing,滑稽的小玩意
+air surge,air surge,气流激涌
+beauty,beauty,美象
+cache flux,cache flux,缓存流
+divine nectar,divine nectar,神性甘露
+expansion,expansion,扩张
+faith surge,faith surge,信仰激涌
+hate surge,hate surge,仇恨激涌
+life surge,life surge,生命激涌
+planter,planter,播种者
+qualia link,qualia link,感质链接
+tiamana leyline,tiamana leyline,提亚玛纳地脉
+vermin shaper,vermin shaper,活体塑造者
+wandering spirit,wandering spirit,游荡之灵
+increase paraphernalia space by %d.,increase paraphernalia space by %d.,提升个人装具空间 %d。
+increase inventory space by %d.,increase inventory space by %d.,提升物品栏空间 %d。
+receive an empty capsule.,receive an empty capsule.,获得一个空胶囊。
+"receive three seeds for planting.
+","receive three seeds for planting.
+",获得三颗播种种子。
+receive a block of gold.,receive a block of gold.,获得一个金块。
+receive a necklace that randomizes your rebirth position when worn.,receive a necklace that randomizes your rebirth position when worn.,获得一条项链，佩戴时将随机化你的重生位置。
+receive a portal to your personal qualia.,receive a portal to your personal qualia.,获得一个通往你个人感质空间的传送门。
+receive a block that allows you to set your rebirth position.,receive a block that allows you to set your rebirth position.,获得一个允许你设定重生位置的方块。
+"receive three cache cubes.
+",receive three cache cubes.,获得三个缓存方块。
+receive a pendant that guides you towards a tiamana leyline.,receive a pendant that guides you towards a tiamana leyline.,获得一个指引你前往提亚玛纳地脉的挂饰。
+increase lung by %d.,increase lung by %d.,提升双肺属性 %d。
+increase faith by %d.,increase faith by %d.,提升信仰属性 %d。
+increase hate by %d.,increase hate by %d.,提升仇恨属性 %d。
+increase heart by %d.,increase heart by %d.,提升心脏属性 %d。
+display,display,显示
+audio,audio,音频
+controls,controls,控制
+"
+controller","
+controller",控制器
+"
+keyboard","
+keyboard",键盘
+history,history,历史
+firmament,firmament,天幕
+ok,ok,确定
+create,create,创建
+embrace,embrace,接受
+myself,myself,我
+spider bubble,spider bubble,蜘蛛泡泡
+note:,note:,注：
+warning:,warning:,注意：
+"note: controls are rebindable in the config menu
+","note: controls are rebindable in the config menu
+",注：按键可在设置中重新绑定
+"you are offline.
+
+ensure that steam is running, then restart the game.","you are offline.
+
+ensure that steam is running, then restart the game.","你处于离线状态。
+
+请确保 Steam 正在顺利运行，并重启游戏。"
+"your device doesn't support the graphics technology this game requires (vulkan). 
+
+try updating your graphics drivers. if the problem continues, you may want to request a refund. the game will launch, but will have severe visual errors.","your device doesn't support the graphics technology this game requires (vulkan). 
+
+try updating your graphics drivers. if the problem continues, you may want to request a refund. the game will launch, but will have severe visual errors.","你的设备不支持本游戏所需的图形技术（Vulkan）。
+
+请尝试更新显卡驱动程序。如果问题仍然存在，你可以考虑申请退款。你依然可以尝试进行，但可能会出现严重的画面问题。"
+"you have bloomed. some of your attributes
+have increased. now, select a bud.","you have bloomed. some of your attributes
+have increased. now, select a bud.","你已绽放。你的部分属性因此提升。
+选择一个花蕾。"
+note: \\,note: \\,注：\\
+warning: \\,warning: \\,注意：\\
+appearance,appearance,外观
+experience,experience,经验
+unite,unite,归一
+dark,dark,阴暗
+light,light,明亮
+bubblebear,bubblebear,泡泡熊
+bee glove,bee glove,蜜蜂手套
+apotheosis eyes,apotheosis eyes,升华之眼
+snowy bear,snowy bear,雪原熊
+clay bubble 1,clay bubble 1,陶土梦泡 1
+clay bubble 2,clay bubble 2,陶土梦泡 2
+blasphemy 1,blasphemy 1,亵渎 1
+blasphemy 2,blasphemy 2,亵渎 2
+fruit femmes,fruit femmes,果姬
+torus,torus,圆环体
+manikin,manikin,人体模型
+worm,worm,蠕虫
+handy secret,handy secret,手间秘辛
+pillars,pillars,柱群
+celestial river,celestial river,星界之河
+blasphemites,blasphemites,亵渎之众
+trauma offering,trauma offering,创伤献礼
+fractal worm,fractal worm,分形蠕虫
+wild life research,wild life research,野生生物研究
+Unblinking Field,Unblinking Field,无瞬之野
+Sphere,Sphere,球体
+worms,worms,蠕虫们
+spiders,spiders,蜘蛛们
+bubbles,bubbles,梦泡类
+enoch's ville,enoch's ville,以诺镇
+the bee's knees,the bee's knees,蜂之膝
+he's stranded,he's stranded,他困于中
+true bubblebear,true bubblebear,真·泡泡熊
+bubble grid,bubble grid,梦泡网格
+under the floor,under the floor,地板之下
+Amongst the Reeds,Amongst the Reeds,于芦苇丛间
+Lucid Bits,Lucid Bits,清醒的小碎屑
+tree,tree,树
+Delirium Vision,Delirium Vision,谵妄幻视
+keeper of life,keeper of life,生命守望者
+please check your,please check your,检查你的——
+ovioli ,ovioli ,奥维奥利
+a vision ,a vision ,幻象
+ifo,ifo,IFO
+Blueprint,Blueprint,蓝图
+cube worship,cube worship,立方体崇拜
+city,city,城市
+cursed photo,cursed photo,诅咒的相片
+peace,peace,宁静
+Milkae,Milkae,米尔卡
+rosary,rosary,念珠
+tome,tome,典籍
+waveforms,waveforms,波形
+bloom,bloom,花期
+heart,heart,心脏
+lung,lung,双肺
+power,power,力量
+speed,speed,速度
+leap,leap,跳跃
+slip,slip,灵活
+mush,mush,柔软
+fluid,fluid,流体
+mass,mass,质量
+span,span,距离
+hate,hate,仇恨
+faith,faith,信仰
+druj,druj,不洁
+blocks,blocks,方块
+degrees,degrees,度
+fps,fps,帧
+left mouse,left mouse,鼠标左键
+right mouse,right mouse,鼠标右键
+middle mouse,middle mouse,鼠标中键
+mouse wheel up,mouse wheel up,滚轮上滑
+mouse wheel down,mouse wheel down,滚轮下滑
+space,space,空格
+shift,shift,Shift
+ctrl,ctrl,Ctrl
+alt,alt,Alt
+enter,enter,回车
+escape,escape,Esc
+tab,tab,Tab
+backspace,backspace,退格
+left,left,左
+right,right,右
+up,up,上
+down,down,下
+BLOCK,BLOCK,方块
+TOOL,TOOL,工具
+GARB,GARB,饰物
+VERMIN,VERMIN,活体
+FOOD,FOOD,食物
+JUNK,JUNK,杂物
+block,block,方块
+tool,tool,工具
+garb,garb,饰物
+vermin,vermin,活体
+food,food,食物
+junk,junk,杂物
+Block,Block,方块
+Tool,Tool,工具
+Garb,Garb,饰物
+Vermin,Vermin,活体
+Food,Food,食物
+Junk,Junk,杂物
+HOTBAR 1,HOTBAR 1,快捷栏 1
+HOTBAR 2,HOTBAR 2,快捷栏 2
+HOTBAR 3,HOTBAR 3,快捷栏 3
+HOTBAR 4,HOTBAR 4,快捷栏 4
+HOTBAR 5,HOTBAR 5,快捷栏 5
+HOTBAR 6,HOTBAR 6,快捷栏 6
+QUICK ITEM MOVE 1,QUICK ITEM MOVE 1,快捷移动物品  1
+QUICK ITEM MOVE 2,QUICK ITEM MOVE 2,快捷移动物品  2
+ITEM COLLECT,ITEM COLLECT,拾取拾取
+ITEM HALF DEPOSIT,ITEM HALF DEPOSIT,存入一半
+HOTBAR NEXT,HOTBAR NEXT,下一个快捷位
+HOTBAR BACK,HOTBAR BACK,上一个快捷位
+DISPLAY,DISPLAY,显示
+AUDIO,AUDIO,音频
+CONTROLS,CONTROLS,控制
+SHIFT,SHIFT,Shift
+CTRL,CTRL,Ctrl
+MIDDLE MOUSE,MIDDLE MOUSE,鼠标中键
+wrath,wrath,受难
+Wrath,Wrath,受难
+divine,divine,成为神
+turvy,turvy,错乱梦境
+"Offer
+","Offer
+",献予
+"You are offline.
+
+ensure that steam is running, then restart the game.","You are offline.
+
+ensure that steam is running, then restart the game.","你处于离线状态。
+
+请确保 Steam 正在顺利运行，并重启游戏。"
+"Your device doesn't support the graphics technology this game requires (Vulkan). 
+
+Try updating your graphics drivers. If the problem continues, you may want to request a refund. The game will launch, but will have severe visual errors.","Your device doesn't support the graphics technology this game requires (Vulkan). 
+
+Try updating your graphics drivers. If the problem continues, you may want to request a refund. The game will launch, but will have severe visual errors.","你的设备不支持本游戏所需的图形技术（Vulkan）。
+
+请尝试更新显卡驱动程序。如果问题仍然存在，你可以考虑申请退款。你依然可以尝试进行，但可能会出现严重的画面问题。"
+"you have bloomed. some of your attributes
+have increased. now, select a bud.","you have bloomed. some of your attributes
+have increased. now, select a bud.","花期已至，你的部分属性因此提升。
+请选择一个花蕾。"
+"You have bloomed. some of your attributes
+have increased. now, select a bud.","You have bloomed. some of your attributes
+have increased. now, select a bud.","花期已至，你的部分属性因此提升。
+请选择一个花蕾。"
+please wait,please wait,请稍等
+PLEASE WAIT,PLEASE WAIT,请稍等
+NEW QUALIA,NEW QUALIA,新感质
+CREATE NEW QUALIA,CREATE NEW QUALIA,创建新感质
+FIRMAMENT,FIRMAMENT,天幕
+compiling shaders...,compiling shaders...,正在编译着色器……
+(this loading screen only appears when the game is booted for the first time or updated),(this loading screen only appears when the game is booted for the first time or updated),（此加载界面仅会在游戏首次启动或更新后出现）
+"your device does not support the graphics technology required by this game (vulkan).
+
+try updating your graphics drivers. if that does not help, you may need to request a refund. the game will still launch, but serious visual issues may occur.","your device does not support the graphics technology required by this game (vulkan).
+
+try updating your graphics drivers. if that does not help, you may need to request a refund. the game will still launch, but serious visual issues may occur.","你的设备不支持本游戏所需的图形技术（Vulkan）。
+
+请尝试更新显卡驱动程序。如果问题仍然存在，你可以考虑申请退款。你依然可以尝试进行，但可能会出现严重的画面问题。"
+The only exit to paradise...,The only exit to paradise...,通往乐园的唯一出口……
+in which your soul will decay for all of eternity.,in which your soul will decay for all of eternity.,你的灵魂将在其中永世腐烂。
+What lies ahead is a withering sarcasm.,What lies ahead is a withering sarcasm.,前方唯有那令生灵枯朽的讥嘲。
+O son of man...,O son of man...,人之子啊……
+"A bloated, festering limb...","A bloated, festering limb...",那浮肿、溃烂的肢体啊……
+the tiamana flow continues to increase in your interlinked bubbles.,the tiamana flow continues to increase in your interlinked bubbles.,提亚玛纳之流正在你相互连结的囊泡中不断生长。
+Russian localization by,Russian localization by,
+"note: ""High"" may cause abnormally bright reflections on some systems","note: ""High"" may cause abnormally bright reflections on some systems",注：设置为“高”可能在某些设备上导致反射异常明亮。
+HIGH,HIGH,高
+MEDIUM,MEDIUM,中
+LOW,LOW,低
+MINIMUM,MINIMUM,土豆
+COMPILING SHADERS...,COMPILING SHADERS...,正在编译着色器……
+(THIS LOADING SCREEN ONLY APPEARS WHEN THE GAME IS BOOTED FOR THE FIRST TIME OR UPDATED),(THIS LOADING SCREEN ONLY APPEARS WHEN THE GAME IS BOOTED FOR THE FIRST TIME OR UPDATED),（此加载界面仅会在游戏首次启动或更新后出现）
+"NOTE: ""HIGH"" MAY CAUSE ABNORMALLY BRIGHT REFLECTIONS ON SOME SYSTEMS","NOTE: ""HIGH"" MAY CAUSE ABNORMALLY BRIGHT REFLECTIONS ON SOME SYSTEMS",注：“高”显示设置在某些设备上可能会导致反射异常明亮。
+Despondent vermin...,Despondent vermin...,枯槁的活体啊……
+May your death bring forth new life.,May your death bring forth new life.,愿你的腐坏，滋养出新的生命。
+despondent vermin...,despondent vermin...,枯槁的活体啊……
+may your death bring forth new life.,may your death bring forth new life.,愿你的腐坏，滋养出新的生命。
+bird,bird,飞鸟
+the tiamana flow continues to increase in your interlinked bubbles.,the tiamana flow continues to increase in your interlinked bubbles.,提亚玛纳之流在你交织的梦泡中猛长。
+[shake rate=5.0 level=6 connected=0]Despondent vermin...[/shake] ,[shake rate=5.0 level=6 connected=0]Despondent vermin...[/shake] ,[shake rate=5.0 level=6 connected=0]枯槁的活体啊……[/shake] 
+[shake rate=5.0 level=6 connected=0]May your death bring forth new life.[/shake],[shake rate=5.0 level=6 connected=0]May your death bring forth new life.[/shake],[shake rate=5.0 level=6 connected=0]愿你的腐坏，滋养出新的生命。[/shake]
+"every minute that i sleep, my mind erodes a little more.","every minute that i sleep, my mind erodes a little more.",每度过一分梦寐，我的心智便消磨一分。
+Even the dust-born creatures overflow with tiamana.,Even the dust-born creatures overflow with tiamana.,哪怕是卑微如尘的生灵，也早已被提亚玛纳彻底浸透。
+The path unto oblivion is unbarred.,The path unto oblivion is unbarred.,通往虚无的门扉，已然敞开。
+Credits,Credits,制作人员
+Special Thanks To:,Special Thanks To:,特别鸣谢：
+"The 115+ playtesters for helping shape the game,","The 115+ playtesters for helping shape the game,",感谢 115+ 位测试人员，你们共同塑造了这款游戏；
+"the users of freesound.org for their amazing samples,","the users of freesound.org for their amazing samples,",感谢 freesound.org 的用户们提供了惊艳的音效采样；
+"my friends and family for their love and support,","my friends and family for their love and support,",感谢我亲友们的爱与支持；
+"...and you, for playing Lucid Blocks.","...and you, for playing Lucid Blocks.",……以及屏幕前的你，感谢你游玩《Lucid Blocks》。
+drown the firmament,drown the firmament,浸入天幕的深处
+"** STOP: 0x0000071
+
+OUT_OF_TIAMANA
+
+
+
+An error occurred connecting to Q-%s-ST
+
+
+
+Phenome dump:
+
+%s
+
+
+
+Rebooting Saptasuryah tether at last visited node... Please be patient. Do not allow your mind to falter. 
+","** STOP: 0x0000071
+
+OUT_OF_TIAMANA
+
+
+
+An error occurred connecting to Q-%s-ST
+
+
+
+Phenome dump:
+
+%s
+
+
+
+Rebooting Saptasuryah tether at last visited node... Please be patient. Do not allow your mind to falter. 
+","** 进程终止：0x0000071
+提亚玛纳耗尽 (OUT_OF_TIAMANA)
+
+连接至 Q-%s-ST 时发生了错误
+
+表型组转储：
+%s
+
+正在最近访问的节点重启“萨普塔苏里亚”系带……请耐心等待，莫失清醒。"
+2.8.4,2.8.4,版本2.8.4 | 汉化制作：Bilibili升雾代课老湿
+2.8.2,2.8.2,版本2.8.2 | 汉化制作：Bilibili升雾代课老湿

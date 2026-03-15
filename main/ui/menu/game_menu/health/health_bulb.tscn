@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://i3oroexllwew"]
+
+[ext_resource type="Theme" uid="uid://dwi7e6nyjnpxm" path="res://main/ui/theme/theme.tres" id="1"]
+[ext_resource type="Script" uid="uid://cfnoo1dptdoue" path="res://main/ui/menu/game_menu/health/health_bulb.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://dbtjh2d0352aj" path="res://main/ui/menu/game_menu/health/heart_background.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dtymrqmg0vvki" path="res://main/ui/menu/game_menu/health/heart_mask.png" id="4"]
+[ext_resource type="Shader" uid="uid://dptmhgb8e1bes" path="res://main/ui/menu/game_menu/health/fluid_ball.gdshader" id="5"]
+
+[sub_resource type="Gradient" id="Gradient_y03pp"]
+offsets = PackedFloat32Array(0, 0.127907, 0.421512, 0.880096, 1)
+colors = PackedColorArray(0.18, 0.018, 0.0936, 1, 0.17, 0.0153, 0.084915, 1, 0.78, 0.2808, 0.48048, 1, 0.863122, 0.370793, 0.461431, 1, 0.96, 0.64384, 0.5952, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_rp6im"]
+gradient = SubResource("Gradient_y03pp")
+fill_from = Vector2(0.131054, 1)
+fill_to = Vector2(0.962963, 0.2849)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7ex3p"]
+shader = ExtResource("5")
+shader_parameter/fV = 0.665
+shader_parameter/flitter_speed = 1.0
+shader_parameter/heart_mask = ExtResource("4")
+shader_parameter/bit_depth = 12.0
+shader_parameter/gradient = SubResource("GradientTexture2D_rp6im")
+
+[node name="HealthBulb" type="Control" unique_id=1231310870]
+layout_mode = 3
+anchors_preset = 0
+size_flags_vertical = 8
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Background" type="TextureRect" parent="." unique_id=2090633770]
+modulate = Color(0.64, 0.2624, 0.325333, 0.901961)
+layout_mode = 0
+offset_left = -34.0
+offset_top = 2.0
+offset_right = 6.0
+offset_bottom = 42.0
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 2
+
+[node name="BackgroundHealth" type="TextureRect" parent="." unique_id=1872358567]
+modulate = Color(0.15, 0.0405, 0.075175, 0.807843)
+layout_mode = 0
+offset_left = -33.0
+offset_top = 3.0
+offset_right = 7.0
+offset_bottom = 43.0
+texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 2
+
+[node name="Fluid" type="ColorRect" parent="." unique_id=689541439]
+unique_name_in_owner = true
+material = SubResource("ShaderMaterial_7ex3p")
+custom_minimum_size = Vector2(22, 20)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -96.0
+offset_top = 3.0
+offset_right = -74.0
+offset_bottom = 23.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 0
+
+[node name="HealthLabel" type="Label" parent="Fluid" unique_id=471538147]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 4.0
+offset_top = 7.0
+offset_right = 21.0
+offset_bottom = 14.0
+text = "17"
+horizontal_alignment = 1
