@@ -85,3 +85,8 @@ This is an expandable Lucid Blocks language pack. The game will automatically se
 
 - 修复了存档名和作者名不显示的问题
 
+### 2026-03-16 - 1.4
+
+- 修复了升级界面文本未被翻译的问题
+- 重构了翻译管理器脚本
+

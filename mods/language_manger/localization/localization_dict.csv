@@ -544,12 +544,12 @@ receive a block that allows you to set your rebirth position.,receive a block th
 "receive three cache cubes.
 ",receive three cache cubes.,获得三个缓存方块。
 receive a pendant that guides you towards a tiamana leyline.,receive a pendant that guides you towards a tiamana leyline.,获得一个指引你前往提亚玛纳地脉的挂饰。
-increase paraphernalia space by 1.,increase paraphernalia space by 1.,提升 1 点个人装具空间。
-increase inventory space by 1.,increase inventory space by %d.,提升 1 点物品栏空间。
-increase lung by 1.,increase lung by 1.,提升 1 点双肺属性。
-increase faith by 1.,increase faith by 1.,提升 1 点信仰属性。
-increase hate by 1.,increase hate by 1.,提升 1 点仇恨属性。
-increase heart by 1.,increase heart by 1.,提升 1 点心脏属性。
+increase paraphernalia space by %d.,increase paraphernalia space by %d.,提升 %d 点个人装具空间。
+increase inventory space by %d.,increase inventory space by %d.,提升 %d 点物品栏空间。
+increase lung by %d.,increase lung by %d.,提升 %d 点双肺属性。
+increase faith by %d.,increase faith by %d.,提升 %d 点信仰属性。
+increase hate by %d.,increase hate by %d.,提升 %d 点仇恨属性。
+increase heart by %d.,increase heart by %d.,提升 %d 点心脏属性。
 display,display,显示
 audio,audio,音频
 controls,controls,控制
