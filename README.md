@@ -38,7 +38,7 @@ This is an expandable Lucid Blocks language pack. The game will automatically se
   + \tutorial_menu
 + zpix.ttf
 
-~~## 自行打包（添加你的语言）
+## 自行打包（添加你的语言）
 
 0. 使用 Godot Editor 打开 Lucid Blocks 项目（不展开说明游戏导出的流程）。
 
@@ -57,9 +57,9 @@ This is an expandable Lucid Blocks language pack. The game will automatically se
 5. 在 `main.gd` 中加入本仓库 `main.gd` 的以下代码片段：
    `30~36` 行、`144~160` 行。
 
-6. 调整 `health_bulb.tscn` 中生命值 Label 的偏移量。
+6. 将一些可能会存在异常显示问题的UI进行修改。
 
-7. 在 Godot 中进入 `Project > Export`，勾选上述修改文件并导出为 `.pck`。~~
+7. 在 Godot 中进入 `Project > Export`，勾选上述修改过的文件并导出为 `.pck`。
 
 ## 更新日志
 
