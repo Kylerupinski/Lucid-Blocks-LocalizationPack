@@ -34,8 +34,11 @@ This is an expandable Lucid Blocks language pack. The game will automatically se
 
 ## 📁 PCK 新增文件结构
 
-+ \localization（语言包）
-  + \tutorial_menu
++ \mods
+  + \language_manager
+    + \localization ⭐ 本地化文件
+    + \tutorial_menu 教程菜单翻译
+    + mod_init.gd ⭐ 翻译管理器脚本
 + zpix.ttf
 
 ## 自行打包（添加你的语言）
