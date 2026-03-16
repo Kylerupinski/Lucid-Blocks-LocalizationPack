@@ -53,9 +53,10 @@ This is an expandable Lucid Blocks language pack. The game will automatically se
 3. 在 `res://` 下新建 `localization` 文件夹，并导入 `localization_dict.csv`。
    Godot 会自动生成翻译文件：`localization_dict.[你的语言编号].translation`。
 
-4. 在 Godot Editor 中进入
+~~4. 在 Godot Editor 中进入
    `Project > Project Settings > Localization > Translations`，
-   添加上一步生成的 `localization_dict.[你的语言编号].translation`。
+   添加上一步生成的 `localization_dict.[你的语言编号].translation`。~~
+
 
 5. 在 `main.gd` 中加入本仓库 `main.gd` 的以下代码片段：
    `30~36` 行、`144~160` 行。
