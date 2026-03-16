@@ -88,8 +88,8 @@ new qualia,new qualia,新感质
 create new qualia,create new qualia,创建新感质
 qualia config,qualia config,感质配置
 (divine),(divine),（成神）
-(wrath),(wrath),（错乱）
-(turvy),(turvy),（受难）
+(wrath),(wrath),（狂怒）
+(turvy),(turvy),（颠倒）
 yes,yes,是
 clear,clear,清除
 accept,accept,接受
@@ -102,8 +102,8 @@ Experience,Experience,体验
 seed,seed,种子
 starting kit,starting kit,初始套装
 divine,divine,成为神
-turvy,turvy,错乱梦境
-wrathful,wrathful,受难
+turvy,turvy,颠倒世界
+wrathful,wrathful,狂怒
 "warning: ""divine"" will permanently disable achievements and progression for this qualia
 ","warning: ""divine"" will permanently disable achievements and progression for this qualia
 ",注意：选择“成为神”将永久禁用该感质的成就与进度。
@@ -714,10 +714,10 @@ CONTROLS,CONTROLS,控制
 SHIFT,SHIFT,Shift
 CTRL,CTRL,Ctrl
 MIDDLE MOUSE,MIDDLE MOUSE,鼠标中键
-wrath,wrath,受难
-Wrath,Wrath,受难
+wrath,wrath,狂怒
+Wrath,Wrath,狂怒
 divine,divine,成为神
-turvy,turvy,错乱梦境
+turvy,turvy,颠倒世界
 "Offer
 ","Offer
 ",献予
