@@ -1,0 +1,421 @@
+[gd_scene format=3 uid="uid://chqed5sfmrdac"]
+
+[ext_resource type="Shader" uid="uid://b2cxe2ekc43i0" path="res://main/ui/backgrounds/background.gdshader" id="1"]
+[ext_resource type="Theme" uid="uid://dwi7e6nyjnpxm" path="res://main/ui/theme/theme.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://btuyr8dcvmh1l" path="res://main/ui/theme/panel/save_file_panel1.png" id="3"]
+[ext_resource type="Script" uid="uid://cpx5x60704s7f" path="res://main/ui/menu/save_file_menu/save_file_container/save_file_container.gd" id="4"]
+[ext_resource type="Texture2D" uid="uid://r5qolma0unm6" path="res://main/ui/theme/panel/save_file_panel3.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://be2l21ai6beu3" path="res://main/ui/theme/panel/save_file_panel4.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://7071vqegj7gx" path="res://main/ui/theme/panel/save_file_panel2.png" id="7"]
+[ext_resource type="Shader" uid="uid://bra4am8uxegff" path="res://main/ui/menu/save_file_menu/save_file_container/backgrounds/save_file_background.gdshader" id="8"]
+[ext_resource type="Texture2D" uid="uid://du4wvli28fh8c" path="res://main/ui/menu/save_file_menu/save_file_container/backgrounds/mask.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dchbpjweili4g" path="res://main/ui/menu/save_file_menu/save_file_container/backgrounds/file_background5.png" id="10"]
+[ext_resource type="Material" uid="uid://b6iuletup1tig" path="res://main/fractal/material/mandelbulb_fractal_2d_low_quality.tres" id="11"]
+[ext_resource type="Texture2D" uid="uid://ce2kv7qysds04" path="res://main/ui/theme/icons/happy_icon.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://ddwjno25ok8yi" path="res://main/ui/theme/icons/sad_icon.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://btqkfa6xlgmc4" path="res://main/ui/menu/save_file_menu/save_file_container/downloaded_icon.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://hor5xb3e2uef" path="res://main/ui/menu/save_file_menu/save_file_container/progression_disabled_icon.png" id="15"]
+[ext_resource type="Script" uid="uid://rqb2m5pfwggo" path="res://main/ui/theme/sound_button.gd" id="16"]
+[ext_resource type="Texture2D" uid="uid://c1aexbsrax6il" path="res://main/ui/theme/icons/play.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://dw4fmgki2i5ft" path="res://main/ui/theme/icons/edit_icon.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://b0o3cv7p1s232" path="res://main/ui/theme/icons/trash_icon.png" id="19"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_jb4ut"]
+frequency = 0.0072
+fractal_type = 2
+domain_warp_enabled = true
+domain_warp_amplitude = 37.425
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_jb4ut"]
+noise = SubResource("FastNoiseLite_jb4ut")
+seamless = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_myvxi"]
+shader = ExtResource("1")
+shader_parameter/noise = SubResource("NoiseTexture2D_jb4ut")
+shader_parameter/resolution_downsampling = 1.0
+shader_parameter/bit_depth = 8.0
+shader_parameter/shift_speed = 0.01
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_myvxi"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+texture = ExtResource("3")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7b0ns"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+texture = ExtResource("5")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5apsy"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+texture = ExtResource("6")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ms50q"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+texture = ExtResource("7")
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_s23yf"]
+frequency = 0.0072
+fractal_type = 2
+domain_warp_enabled = true
+domain_warp_amplitude = 37.425
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_o7pna"]
+noise = SubResource("FastNoiseLite_s23yf")
+seamless = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bs4s0"]
+shader = ExtResource("8")
+shader_parameter/mask = ExtResource("9")
+shader_parameter/noise = SubResource("NoiseTexture2D_o7pna")
+shader_parameter/resolution_downsampling = 1.0
+shader_parameter/bit_depth = 4.0
+shader_parameter/shift_speed = 0.01
+
+[node name="SaveFileContainer" type="PanelContainer" unique_id=555906748]
+self_modulate = Color(0.7458229, 0.57627803, 0.80164236, 1)
+material = SubResource("ShaderMaterial_myvxi")
+custom_minimum_size = Vector2(218, 40)
+offset_right = 222.0
+offset_bottom = 53.0
+pivot_offset = Vector2(0, 22.5)
+theme = ExtResource("2")
+theme_override_styles/panel = SubResource("StyleBoxTexture_myvxi")
+script = ExtResource("4")
+default_panel = SubResource("StyleBoxTexture_myvxi")
+select_panel = SubResource("StyleBoxTexture_7b0ns")
+select_hover_panel = SubResource("StyleBoxTexture_5apsy")
+hover_panel = SubResource("StyleBoxTexture_ms50q")
+vote_select_up_color = Color(1.3265593, 1.1194366, 0.8294649, 1)
+vote_select_down_color = Color(0.89487207, 1.2042478, 1.3265593, 1)
+vote_deselect_color = Color(0.22, 0.22, 0.22, 1)
+
+[node name="BackgroundHolder" type="Control" parent="." unique_id=1535192091]
+layout_mode = 2
+
+[node name="Background" type="TextureRect" parent="BackgroundHolder" unique_id=712917740]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0.14901961)
+material = SubResource("ShaderMaterial_bs4s0")
+layout_mode = 0
+offset_left = -4.0
+offset_top = -4.0
+offset_right = 214.0
+offset_bottom = 36.0
+texture = ExtResource("10")
+stretch_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=168598452]
+layout_mode = 2
+
+[node name="ProphecyBall" type="ColorRect" parent="HBoxContainer" unique_id=1053061768]
+unique_name_in_owner = true
+texture_repeat = 2
+material = ExtResource("11")
+instance_shader_parameters/fractal_color_1 = Color(1, 0.86, 0.96033335, 1)
+instance_shader_parameters/fractal_color_2 = Color(0.7243381, 0.44190562, 0.22553024, 1)
+instance_shader_parameters/mandelbulb_power = 4.715
+instance_shader_parameters/rotation = 0.0
+custom_minimum_size = Vector2(29, 29)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+mouse_filter = 2
+
+[node name="RegularContainer" type="VBoxContainer" parent="HBoxContainer" unique_id=57196732]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 1
+
+[node name="WorldTitleLabel" type="Label" parent="HBoxContainer/RegularContainer" unique_id=502098004]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(177, 12)
+layout_mode = 2
+text = "存档Save Fileaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+autowrap_mode = 1
+justification_flags = 35
+clip_text = true
+text_overrun_behavior = 3
+
+[node name="NameSection" type="HBoxContainer" parent="HBoxContainer/RegularContainer" unique_id=2089638548]
+layout_mode = 2
+
+[node name="By" type="Label" parent="HBoxContainer/RegularContainer/NameSection" unique_id=2121627991]
+visible = false
+modulate = Color(1, 1, 1, 0.43529412)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+
+[node name="Author" type="Label" parent="HBoxContainer/RegularContainer/NameSection" unique_id=1933864674]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0.43529412)
+custom_minimum_size = Vector2(177, 12)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "myself单纯爱睡觉"
+autowrap_mode = 1
+text_overrun_behavior = 3
+
+[node name="DateSection" type="HBoxContainer" parent="HBoxContainer/RegularContainer" unique_id=1296973015]
+layout_mode = 2
+
+[node name="VersionLabel" type="Label" parent="HBoxContainer/RegularContainer/DateSection" unique_id=222326431]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0.43529412)
+custom_minimum_size = Vector2(55, 4)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "v1.6.0"
+autowrap_mode = 1
+
+[node name="DateLabel" type="Label" parent="HBoxContainer/RegularContainer/DateSection" unique_id=876864955]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0.43529412)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "25/25/1"
+text_overrun_behavior = 3
+
+[node name="RandomLabel" type="Label" parent="HBoxContainer/RegularContainer" unique_id=1602423080]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_colors/font_color = Color(0.427451, 0.427451, 0.427451, 1)
+text = "world hate fun "
+clip_text = true
+text_overrun_behavior = 3
+
+[node name="Tags" type="HBoxContainer" parent="HBoxContainer/RegularContainer" unique_id=1295339253]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 3
+
+[node name="DivineLabel" type="Label" parent="HBoxContainer/RegularContainer/Tags" unique_id=1258804815]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0.43529412)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9999996, 0.8954575, 0.74513674, 1)
+text = "(divine)"
+
+[node name="WrathLabel" type="Label" parent="HBoxContainer/RegularContainer/Tags" unique_id=1429280841]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0.43529412)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.85473174, 0.7469, 0.97, 1)
+text = "(wrath)"
+
+[node name="UpsideDownLabel" type="Label" parent="HBoxContainer/RegularContainer/Tags" unique_id=744669528]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0.43529412)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.85, 1, 0.99, 1)
+text = "(turvy)"
+
+[node name="VoteContainer" type="HBoxContainer" parent="HBoxContainer/RegularContainer" unique_id=551162914]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="UpvoteContainer" type="HBoxContainer" parent="HBoxContainer/RegularContainer/VoteContainer" unique_id=1192375447]
+layout_mode = 2
+theme_override_constants/separation = 1
+
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer/RegularContainer/VoteContainer/UpvoteContainer" unique_id=884815574]
+layout_mode = 2
+texture = ExtResource("12")
+stretch_mode = 2
+
+[node name="UpvoteLabel" type="Label" parent="HBoxContainer/RegularContainer/VoteContainer/UpvoteContainer" unique_id=1848511887]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9764706, 0.87058824, 0.7254902, 1)
+text = "0"
+
+[node name="DownvoteContainer" type="HBoxContainer" parent="HBoxContainer/RegularContainer/VoteContainer" unique_id=223225095]
+layout_mode = 2
+theme_override_constants/separation = 1
+
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer/RegularContainer/VoteContainer/DownvoteContainer" unique_id=1115146916]
+layout_mode = 2
+texture = ExtResource("13")
+stretch_mode = 2
+
+[node name="DownvoteLabel" type="Label" parent="HBoxContainer/RegularContainer/VoteContainer/DownvoteContainer" unique_id=1760845544]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7254902, 0.90588236, 0.9764706, 1)
+text = "0"
+
+[node name="NewContainer" type="HBoxContainer" parent="HBoxContainer" unique_id=1012825925]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="PlusLabel" type="Label" parent="HBoxContainer/NewContainer" unique_id=690501439]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6509804, 0.6509804, 0.6509804, 1)
+text = "+"
+
+[node name="NewLabel" type="Label" parent="HBoxContainer/NewContainer" unique_id=1923965572]
+layout_mode = 2
+text = "instance new qualia"
+
+[node name="IconHolder" type="Control" parent="." unique_id=339505425]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+mouse_filter = 2
+
+[node name="DownloadedIcon" type="TextureRect" parent="IconHolder" unique_id=1167495577]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+offset_left = 188.0
+offset_top = -4.0
+offset_right = 214.0
+offset_bottom = 16.0
+mouse_filter = 2
+texture = ExtResource("14")
+stretch_mode = 2
+
+[node name="ProgressionDisabledIcon" type="TextureRect" parent="IconHolder" unique_id=216313454]
+unique_name_in_owner = true
+visible = false
+self_modulate = Color(1, 1, 1, 0.3764706)
+layout_mode = 1
+offset_left = 26.0
+offset_right = 52.0
+offset_bottom = 20.0
+mouse_filter = 2
+texture = ExtResource("15")
+stretch_mode = 2
+
+[node name="ButtonContainer" type="HBoxContainer" parent="." unique_id=1847720857]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+mouse_filter = 0
+theme_override_constants/separation = 1
+
+[node name="UpvoteButton" type="Button" parent="ButtonContainer" unique_id=1914319450]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+icon = ExtResource("12")
+script = ExtResource("16")
+
+[node name="DownvoteButton" type="Button" parent="ButtonContainer" unique_id=1984560356]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+icon = ExtResource("13")
+script = ExtResource("16")
+
+[node name="PlayButton" type="Button" parent="ButtonContainer" unique_id=852406586]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+icon = ExtResource("17")
+script = ExtResource("16")
+
+[node name="EditButton" type="Button" parent="ButtonContainer" unique_id=1914051792]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+icon = ExtResource("18")
+script = ExtResource("16")
+
+[node name="DeleteButton" type="Button" parent="ButtonContainer" unique_id=245228882]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+icon = ExtResource("19")
+script = ExtResource("16")
+
+[node name="SoundBoard" type="BaseButton" parent="." unique_id=219037422]
+unique_name_in_owner = true
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 2
+auto_translate_mode = 0
+editor_description = ""
+visible = false
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+material = null
+use_parent_material = false
+clip_contents = false
+custom_minimum_size = Vector2(0, 0)
+layout_direction = 0
+layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
+size_flags_stretch_ratio = 1.0
+localize_numeral_system = true
+tooltip_text = ""
+tooltip_auto_translate_mode = 0
+focus_neighbor_left = NodePath("")
+focus_neighbor_top = NodePath("")
+focus_neighbor_right = NodePath("")
+focus_neighbor_bottom = NodePath("")
+focus_next = NodePath("")
+focus_previous = NodePath("")
+focus_mode = 2
+focus_behavior_recursive = 0
+mouse_filter = 0
+mouse_behavior_recursive = 0
+mouse_force_pass_scroll_events = true
+mouse_default_cursor_shape = 0
+accessibility_name = ""
+accessibility_description = ""
+accessibility_live = 0
+accessibility_controls_nodes = Array[NodePath]([])
+accessibility_described_by_nodes = Array[NodePath]([])
+accessibility_labeled_by_nodes = Array[NodePath]([])
+accessibility_flow_to_nodes = Array[NodePath]([])
+theme = null
+theme_type_variation = &""
+disabled = false
+toggle_mode = false
+button_pressed = false
+action_mode = 1
+button_mask = 1
+keep_pressed_outside = false
+button_group = null
+shortcut = null
+shortcut_feedback = true
+shortcut_in_tooltip = true
+script = ExtResource("16")
+metadata/_custom_type_script = "uid://rqb2m5pfwggo"
