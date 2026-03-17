@@ -26,7 +26,7 @@ func _init():
                 while file_name != "":
                     var full_path = loc_dir.path_join(file_name)
                     if not dir.current_is_dir():
-                        if file_name.ends_with(".csv") or file_name.ends_with(".translation"):
+                        if file_name.ends_with(".translation"):
                             var translation = load(full_path)
                             if translation:
                                 TranslationServer.add_translation(translation)
