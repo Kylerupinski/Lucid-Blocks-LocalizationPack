@@ -60,7 +60,7 @@ This is an expandable Lucid Blocks language pack. The game will automatically se
 4. ⭐ 现在游戏将会自动识别翻译文件并注册，无需手动添加注册。只需确保`.translation`文件在步骤3的`\localization`目录内
 
 5. 在 `main.gd` 中加入本仓库 `main.gd` 的以下代码片段：
-   `30~36` 行、`144~160` 行。
+   `30~36` 行、`98~99`行、`144~160` 行。
 
 6. 将一些可能会存在异常显示问题的UI进行修改。
 
@@ -89,4 +89,8 @@ This is an expandable Lucid Blocks language pack. The game will automatically se
 
 - 修复了升级界面文本未被翻译的问题
 - 重构了翻译管理器脚本
+
+### 2026-03-17 - 1.4.5
+
+- 修复了教程界面未被翻译的问题
 

@@ -1,7 +1,7 @@
 class_name Main extends Node
 
 
-@export var debug: bool = false
+@export var debug: bool = true
 @export var demo: bool = false
 @export var main_menu_music: AudioStream
 @export var firmament_menu_music: AudioStream
@@ -31,6 +31,7 @@ func _ready() -> void :
     # Load here language from the user settings file
     if language == "automatic":
         var preferred_language = OS.get_locale_language()
+        print_rich("System language: ", preferred_language)
         TranslationServer.set_locale(preferred_language)
     else:
         TranslationServer.set_locale(language)
@@ -94,7 +95,8 @@ func _ready() -> void :
         await Ref.trans.close()
         await %RenderWarning.confirmed
 
-
+    print_rich("[color=#77FF77]Loading mods...")
+    _load_mod_nodes()
 
     if Ref.shader_loader.must_compile_shaders():
         await Ref.trans.open()
@@ -140,8 +142,6 @@ func _ready() -> void :
     all_loaded.emit()
 
     print_rich("[color=#77FF77]Modded Game ready.")
-    
-    _load_mod_nodes()
 
 func _load_mod_nodes() -> void :
     var dir: = DirAccess.open("res://mods/")

@@ -5,6 +5,9 @@ const is_on := true
 var _regex_digits := RegEx.new()
 var _regex_placeholder := RegEx.new()
 
+# 图片本地化重映射表：{ "原始文件stem": { "locale_code": "完整res路径" } }
+var _image_remaps: Dictionary = {}
+
 func _init():
     _regex_digits.compile("\\d+")
     _regex_placeholder.compile("%d")
@@ -36,10 +39,12 @@ func _init():
         
         call_deferred("_start_translation_watcher")
         call_deferred("_connect_level_up_menu")
+        _build_image_remap_table()
 
 func _start_translation_watcher():
     _translate_all_controls(get_tree().root)
     get_tree().node_added.connect(_on_node_added)
+    _apply_image_remaps_to_node(get_tree().root)
     
 # 连接 LevelUpMenu 的 visibility_changed 信号
 func _connect_level_up_menu():
@@ -88,6 +93,7 @@ func _deferred_translate_node(node: Node):
     if not is_instance_valid(node):
         return
     _translate_node(node)
+    _apply_image_remaps_to_node(node)
 
 func _translate_node(node: Node):
     if node is Control:
@@ -221,3 +227,78 @@ func _translate_all_controls(node: Node):
         _translate_control(node)
     for child in node.get_children():
         _translate_all_controls(child)
+
+# ---------- 图片本地化重映射 ----------
+func _build_image_remap_table() -> void:
+    var mod_root = get_script().get_path().get_base_dir()
+    var loc_dir = mod_root.path_join("localization")
+    _scan_image_remaps_in_dir(loc_dir)
+
+func _scan_image_remaps_in_dir(dir_path: String) -> void:
+    var dir = DirAccess.open(dir_path)
+    if not dir:
+        return
+    dir.list_dir_begin()
+    var entry = dir.get_next()
+    while entry != "":
+        var full_path = dir_path.path_join(entry)
+        if dir.current_is_dir():
+            _scan_image_remaps_in_dir(full_path)
+        else:
+            var ext = entry.get_extension().to_lower()
+            if ext in ["png", "jpg", "jpeg", "webp", "svg"]:
+                var stem = entry.get_basename()  # 例：tutorial_menu2-zh_cn
+                var dash_pos = stem.rfind("-")
+                if dash_pos > 0:
+                    var original_stem = stem.substr(0, dash_pos)   # tutorial_menu2
+                    var locale_code = stem.substr(dash_pos + 1).to_lower()  # zh_cn
+                    if not _image_remaps.has(original_stem):
+                        _image_remaps[original_stem] = {}
+                    _image_remaps[original_stem][locale_code] = full_path
+                    print("[语言管理器] 注册图片重映射：", original_stem, " [", locale_code, "] -> ", full_path)
+        entry = dir.get_next()
+    dir.list_dir_end()
+
+func _apply_image_remaps_to_node(node: Node) -> void:
+    if _image_remaps.is_empty():
+        return
+    _remap_node_texture(node)
+    for child in node.get_children():
+        _apply_image_remaps_to_node(child)
+
+func _remap_node_texture(node: Node) -> void:
+    if not "texture" in node:
+        return
+    var tex = node.get("texture")
+    if not tex or not (tex is Texture2D):
+        return
+    var tex_path: String = tex.resource_path
+    if tex_path.is_empty():
+        return
+
+    var tex_stem: String = tex_path.get_file().get_basename()
+    if not _image_remaps.has(tex_stem):
+        return
+
+    var locale_map: Dictionary = _image_remaps[tex_stem]
+    var locale: String = TranslationServer.get_locale().to_lower().replace("-", "_")  # zh_CN -> zh_cn
+    var locale_lang: String = locale.split("_")[0]  # zh
+
+    var remap_path: String = ""
+    if locale_map.has(locale):
+        remap_path = locale_map[locale]
+    elif locale_map.has(locale_lang):
+        remap_path = locale_map[locale_lang]
+    else:
+        for key in locale_map.keys():
+            if key.begins_with(locale_lang + "_"):
+                remap_path = locale_map[key]
+                break
+
+    if remap_path.is_empty() or tex_path == remap_path:
+        return
+
+    var new_tex = load(remap_path)
+    if new_tex:
+        node.set("texture", new_tex)
+        print("[语言管理器] 图片已替换：", tex_stem, " -> ", remap_path)
