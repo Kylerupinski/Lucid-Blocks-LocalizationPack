@@ -1,6 +1,6 @@
 id,en,zh_CN
 config,config,设置
-awaken,awaken,这是梦
+awaken,awaken,醒来
 qualia,qualia,感质空间
 (exit game),(exit game),<退出游戏>
 my qualia,my qualia,感质档案
@@ -88,8 +88,8 @@ new qualia,new qualia,新感质
 create new qualia,create new qualia,创建新感质
 qualia config,qualia config,感质配置
 (divine),(divine),（成神）
-(wrath),(wrath),（狂怒）
-(turvy),(turvy),（颠倒）
+(wrath),(wrath),（受难）
+(turvy),(turvy),（翻转）
 yes,yes,是
 clear,clear,清除
 accept,accept,接受
@@ -102,8 +102,8 @@ Experience,Experience,体验
 seed,seed,种子
 starting kit,starting kit,初始套装
 divine,divine,成为神
-turvy,turvy,颠倒世界
-wrathful,wrathful,狂怒
+turvy,turvy,世界翻转
+wrathful,wrathful,受难
 "warning: ""divine"" will permanently disable achievements and progression for this qualia
 ","warning: ""divine"" will permanently disable achievements and progression for this qualia
 ",注意：选择“成为神”将永久禁用该感质的成就与进度。
@@ -141,46 +141,46 @@ tiamana seeker,tiamana seeker,提亚玛纳寻踪者
 # auto item/block translations,# auto item/block translations,
 a,a,a
 abble block,abble block,艾波方块
-accelo block,accelo block,加速方块
+accelo block,accelo block,加速单元
 agni capsule,agni capsule,阿耆尼胶囊
 ahuizotl capsule,ahuizotl capsule,阿维特索特尔胶囊
 air block,air block,空气方块
-alach capsule,alach capsule,阿拉斥胶囊
+alach capsule,alach capsule,人面蟢胶囊
 aluminum block,aluminum block,铝方块
 ambiguous block,ambiguous block,多样的方块
 amethyst knife,amethyst knife,紫水晶小刀
 anger block,anger block,怒气方块
 appendage,appendage,肢体
 archangel capsule,archangel capsule,大天使胶囊
-arm extension,arm extension,延伸的手臂
-asphalt block,asphalt block,沥青方块
+arm extension,arm extension,延伸臂
+asphalt block,asphalt block,柏油方块
 aster,aster,翠菊
 axe,axe,斧
 azrael,azrael,亚兹拉尔
 b,b,b
-baal capsule,baal capsule,巴尔胶囊
+baal capsule,baal capsule,巴力胶囊
 baguette,baguette,法棍面包
 ball essence,ball essence,球形源质
-ball shepach,ball shepach,球形形具
-ball wand,ball wand,球体权杖
+ball shepach,ball shepach,球体机关
+ball wand,ball wand,球体魔杖
 balloon,balloon,气球
 bead bracelet,bead bracelet,珠子手链
 bee capsule,bee capsule,蜜蜂胶囊
-beep block,beep block,蜂鸣方块
+beep block,beep block,虚实体方块
 berry,berry,浆果
 berry earring,berry earring,浆果耳环
 black plastic block,black plastic block,黑色塑料方块
 black sand block,black sand block,黑沙方块
-blasphemy block,blasphemy block,亵渎的方块
-blasphemy capsule,blasphemy capsule,亵渎的胶囊
+blasphemy block,blasphemy block,亵渎体生成方块
+blasphemy capsule,blasphemy capsule,亵渎体胶囊
 blessing cube,blessing cube,祝福方块
 blue grass,blue grass,蓝草
 blue grass block,blue grass block,蓝草方块
 blue lamp,blue lamp,蓝色灯
 blue plastic block,blue plastic block,蓝色塑料方块
 blush,blush,腮红
-boid capsule,boid capsule,集群胶囊
-bolus,bolus,药丸
+boid capsule,boid capsule,鱼群算法胶囊
+bolus,bolus,精糜
 bomb,bomb,炸弹
 bone,bone,骨头
 bone pick,bone pick,骨制十字镐
@@ -188,7 +188,7 @@ bookshelf block,bookshelf block,书架方块
 brick block,brick block,砖块
 bright grass block,bright grass block,鲜草方块
 brown plastic block,brown plastic block,棕色塑料方块
-bubble hat,bubble hat,气泡帽
+bubble hat,bubble hat,泡泡熊帽
 bubblebear capsule,bubblebear capsule,泡泡熊胶囊
 bubblebear egg,bubblebear egg,泡泡熊的蛋
 bug ring,bug ring,昆虫戒指
@@ -202,27 +202,27 @@ choker,choker,颈圈
 circuit block,circuit block,电路方块
 clay axe,clay axe,陶土斧
 clay block,clay block,陶土方块
-clay brick block,clay brick block,陶砖块
-clay lump,clay lump,陶土块
-clay pot,clay pot,陶罐
+clay brick block,clay brick block,陶土砖块
+clay lump,clay lump,陶土
+clay pot,clay pot,陶土罐
 clay shepach,clay shepach,陶土形具
-clay tile block,clay tile block,陶瓦方块
-clonaqualia block,clonaqualia block,感质克隆方块
+clay tile block,clay tile block,陶土转块
+clonaqualia block,clonaqualia block,拟像感质传送门
 cobalt block,cobalt block,钴方块
 cold stone block,cold stone block,冷石方块
 comb block,comb block,蜂巢方块
 comfort block,comfort block,慰藉的方块
 concrete block,concrete block,混凝土方块
-cooked bubble flesh,cooked bubble flesh,熟气泡肉
+cooked bubble flesh,cooked bubble flesh,熟泡泡熊肉
 cooked fish corpse,cooked fish corpse,熟制鱼尸骸
 cooked noot flesh,cooked noot flesh,熟努努肉
 cooked sheep flesh,cooked sheep flesh,熟羊肉
 cooked wildebeest flesh,cooked wildebeest flesh,熟角马肉
 core block,core block,核心方块
-couch block,couch block,长沙发方块
-cristella's bane,cristella's bane,克里斯泰拉之灾
+couch block,couch block,沙发方块
+cristella's bane,cristella's bane,克里斯泰拉之厄
 crucible block,crucible block,坩埚
-cut wood block,cut wood block,切开的木头方块
+cut wood block,cut wood block,被切割的木头
 cyst,cyst,囊肿
 d,d,d
 dandelion,dandelion,蒲公英
@@ -236,7 +236,7 @@ direction block,direction block,方向方块
 dirt block,dirt block,泥土方块
 divine drill,divine drill,神性钻头
 dog block,dog block,狗狗方块
-dominion capsule,dominion capsule,统治胶囊
+dominion capsule,dominion capsule,掌权体胶囊
 dough ring,dough ring,面圈
 dried abble block,dried abble block,干燥的艾波方块
 druid dirt block,druid dirt block,德鲁伊泥土方块
@@ -252,29 +252,29 @@ essence block,essence block,源质方块
 eye,eye,眼球
 eye cyst block,eye cyst block,眼球囊肿方块
 f,f,f
-faith wand,faith wand,信仰权杖
+faith wand,faith wand,信仰魔杖
 feather,feather,羽毛
 fiddlehead,fiddlehead,卷蕨
 fire,fire,火
-fire bomb,fire bomb,火焰弹
+fire bomb,fire bomb,火焰炸弹
 fish capsule,fish capsule,鱼胶囊
 fish corpse,fish corpse,鱼的尸骸
 flesh block,flesh block,血肉方块
-flimsy hook,flimsy hook,劣质的钩子
+flimsy hook,flimsy hook,劣质抓钩枪
 flionide block,flionide block,弗离化物
 flippers,flippers,蹼鞋
-floroid block,floroid block,酵体
+floroid block,floroid block,卉体
 flower earring,flower earring,花朵耳环
-foe,foe,仇敌
+foe,foe,敌人
 foliage picker,foliage picker,采叶器
 friend,friend,友人
-friend shepach,friend shepach,友人形具
-friend wand,friend wand,友人权杖
+friend shepach,friend shepach,友爱机关
+friend wand,friend wand,友爱魔杖
 fruit femme capsule,fruit femme capsule,果姬胶囊
 fruit seed,fruit seed,水果种子
 g,g,g
 gear,gear,齿轮
-gel block,gel block,凝胶方块
+gel block,gel block,凝胶体生成方块
 gel bruiser,gel bruiser,凝胶打击者
 gel capsule,gel capsule,凝胶体胶囊
 glaggle token,glaggle token,微笑代币
@@ -282,51 +282,51 @@ glaggler capsule,glaggler capsule,微笑胶囊
 gland,gland,腺体
 glass block,glass block,玻璃方块
 glass shard,glass shard,玻璃碎片
-glass tile block,glass tile block,玻璃瓦块
+glass tile block,glass tile block,玻璃砖块
 glider glove,glider glove,滑翔手套
 gold block,gold block,金块
-golden boots,golden boots,金靴
-golem capsule,golem capsule,魔像胶囊
+golden boots,golden boots,金制靴
+golem capsule,golem capsule,小泥人胶囊
 goo,goo,粘液
 goo capsule,goo capsule,粘液体胶囊
 granite block,granite block,花岗岩方块
 grass,grass,草
 grass block,grass block,草方块
-grass grass,grass grass,艸
-grass grass block,grass grass block,艸方块
+grass grass,grass grass,草的草
+grass grass block,grass grass block,草的草方块
 grave,grave,坟墓
 green lamp,green lamp,绿色灯
 green plastic block,green plastic block,绿色塑料方块
 grill block,grill block,金属格栅
 guard cube,guard cube,护卫方块
-gyro fish capsule,gyro fish capsule,陀螺鱼胶囊
-gyro hook,gyro hook,陀螺钩
+gyro fish capsule,gyro fish capsule,螺旋鱼胶囊
+gyro hook,gyro hook,螺旋抓钩枪
 h,h,h
 hair clip,hair clip,发夹
-hand wand,hand wand,手之权杖
-hate wand,hate wand,仇恨权杖
-haze hand,haze hand,迷雾之手
+hand wand,hand wand,手之魔杖
+hate wand,hate wand,仇恨魔杖
+haze hand,haze hand,吐雾之手
 heavy boots,heavy boots,重靴
 hinokagutsuchi,hinokagutsuchi,火之迦具土
-hope cube,hope cube,希望的方块
+hope cube,hope cube,美好六面体
 i,i,i
-ice cube,ice cube,冰块
-ice pick,ice pick,冰镐
+ice cube,ice cube,冰方块
+ice pick,ice pick,冰十字镐
 ice shoes,ice shoes,冰鞋
 infested wood block,infested wood block,受感染的木头方块
-infinite absorber,infinite absorber,无限吸收器
-infinite spiller,infinite spiller,无限喷洒器
+infinite absorber,infinite absorber,无底汲纳皿
+infinite spiller,infinite spiller,无竭倾倒皿
 j,j,j
 jade bomb,jade bomb,翡翠炸弹
-janqualia block,janqualia block,感质起始方块
+janqualia block,janqualia block,起源感质传送门
 juice,juice,果汁
 k,k,k
 kali capsule,kali capsule,迦梨胶囊
 kelp,kelp,海带
 key axe,key axe,钥匙斧
-kila,kila,奇拉
-koadma block,koadma block,木灵方块
-kodama capsule,kodama capsule,木灵胶囊
+kila,kila,三棱橛
+koadma block,koadma block,源质拟灵生成方块
+kodama capsule,kodama capsule,源质拟灵胶囊
 l,l,l
 lavender,lavender,薰衣草
 lavender block,lavender block,薰衣草方块
@@ -335,41 +335,41 @@ leaf pick,leaf pick,树叶十字镐
 leaky pendant,leaky pendant,渗漏挂饰
 letter cube,letter cube,字母方块
 leviathan capsule,leviathan capsule,利维坦胶囊
-light pincer,light pincer,光之钳
+light pincer,light pincer,光钳
 limestone block,limestone block,石灰岩方块
-limestone tile block,limestone tile block,石灰岩瓦方块
-locket,locket,坠饰
+limestone tile block,limestone tile block,石灰岩砖方块
+locket,locket,吊坠
 log block,log block,原木方块
-love block,love block,爱意的方块
+love block,love block,爱意方块
 love ring,love ring,爱意戒指
-lucid block,lucid block,清醒的方块
+lucid block,lucid block,清醒方块
 m,m,m
-mace,mace,晨星锤
+mace,mace,权杖
 machination,machination,诡机
 magnetite,magnetite,磁铁矿
 magnetite ore block,magnetite ore block,磁铁矿石
 mana gel,mana gel,法力凝胶
 mana gem block,mana gem block,法力宝石块
 mana ore block,mana ore block,法力矿石
-manikin block,manikin block,人体模型方块
+manikin block,manikin block,人体模型生成方块
 manikin capsule,manikin capsule,人体模型胶囊
 marble,marble,大理石
-meat apparatus,meat apparatus,血肉装置
-meeshuu capsule,meeshuu capsule,米舒胶囊
+meat apparatus,meat apparatus,血肉组织
+meeshuu capsule,meeshuu capsule,静谧纸影胶囊
 melon block,melon block,西瓜方块
 melon slice,melon slice,西瓜片
 mercury capsule,mercury capsule,水银胶囊
-mercury tendril,mercury tendril,水银触须
+mercury tendril,mercury tendril,水银卷须
 metal block,metal block,金属块
-metal gel block,metal gel block,金属凝胶块
-metal golem block,metal golem block,金属魔像块
-metal golem capsule,metal golem capsule,金属魔像胶囊
-metal hook,metal hook,金属钩
+metal gel block,metal gel block,金属凝胶体生成方块
+metal golem block,metal golem block,金属傀儡方块
+metal golem capsule,metal golem capsule,金属傀儡胶囊
+metal hook,metal hook,金属抓钩枪
 methuselah,methuselah,玛土撒拉
-mimic capsule,mimic capsule,宝箱怪胶囊
-mini gel block,mini gel block,微型凝胶块
-mirage block,mirage block,海市蜃楼方块
-moccos capsule,moccos capsule,莫科斯胶囊
+mimic capsule,mimic capsule,拟态怪胶囊
+mini gel block,mini gel block,微型凝胶体生成方块
+mirage block,mirage block,海市蜃楼
+moccos capsule,moccos capsule,宏漫体胶囊
 moss block,moss block,苔藓方块
 moss fuzz,moss fuzz,苔藓绒毛
 mud block,mud block,泥土方块
@@ -382,34 +382,34 @@ nut,nut,坚果
 o,o,o
 obsidian block,obsidian block,黑曜石方块
 ofanim capsule,ofanim capsule,座天使胶囊
-omni hat,omni hat,全能帽
+omni hat,omni hat,全知头冠
 onyx block,onyx block,缟玛瑙块
 oppleberry block,oppleberry block,奥珀莓块
 oppleberry slice,oppleberry slice,奥珀莓切片
-ornament block,ornament block,装饰方块
+ornament block,ornament block,冗余纹样
 osmium block,osmium block,锇块
 p,p,p
-paddle,paddle,划桨
+paddle,paddle,桨
 pale grass,pale grass,苍白草
-pale grass block,pale grass block,苍白草块
-pebble block,pebble block,卵石块
-pebble tile block,pebble tile block,卵石瓦块
+pale grass block,pale grass block,苍白草方块
+pebble block,pebble block,卵石方块
+pebble tile block,pebble tile block,卵石砖方块
 pepper,pepper,辣椒
 petal block,petal block,花瓣方块
 pickaxe,pickaxe,十字镐
-pimble block,pimble block,小团方块
+pimble block,pimble block,小点方块
 pink grass,pink grass,粉红草
 pink grass block,pink grass block,粉红草方块
 pink plastic block,pink plastic block,粉色塑料方块
 plastic pellet,plastic pellet,塑料颗粒
-plate block,plate block,盘子
+plate block,plate block,盘子方块
 plum axe,plum axe,梅树斧
-plush,plush,玩偶
+plush,plush,棉花娃娃
 popsicle,popsicle,冰棒
 preta capsule,preta capsule,饿鬼胶囊
 principality capsule,principality capsule,权天使胶囊
 prismatic block,prismatic block,棱镜方块
-processed meat block,processed meat block,加工肉块
+processed meat block,processed meat block,加工肉方块
 pulp block,pulp block,浆质
 purity ring,purity ring,纯洁戒指
 purple lamp,purple lamp,紫色灯
@@ -421,7 +421,7 @@ raw sheep flesh,raw sheep flesh,生羊肉
 raw wildebeest flesh,raw wildebeest flesh,生角马肉
 red lamp,red lamp,红色灯
 red plastic block,red plastic block,红色塑料方块
-rejuvenation anchor,rejuvenation anchor,回春之锚
+rejuvenation anchor,rejuvenation anchor,重生之锚
 rename pencil,rename pencil,命名铅笔
 revelation block,revelation block,启示方块
 revelation nut,revelation nut,启示坚果
@@ -435,8 +435,8 @@ sand block,sand block,沙子方块
 sandstone block,sandstone block,沙岩方块
 scythe,scythe,镰刀
 seaweed,seaweed,海藻
-segment,segment,节段
-serpent ring,serpent ring,蛇环
+segment,segment,体节
+serpent ring,serpent ring,蛇皮戒指
 shale block,shale block,页岩方块
 sheep capsule,sheep capsule,绵羊胶囊
 shell,shell,贝壳
@@ -445,47 +445,47 @@ shovel,shovel,铲子
 silicon crystal,silicon crystal,硅晶体
 silver block,silver block,银块
 silver vessel,silver vessel,银器
-sky rock block,sky rock block,天石块
+sky rock block,sky rock block,天石方块
 snorkel,snorkel,潜水呼吸管
 snow block,snow block,雪块
-snow grass block,snow grass block,雪草方块
-snowy leaf block,snowy leaf block,积雪叶方块
-sodium lamp,sodium lamp,钠灯
-sponge block,sponge block,海绵块
-sponge shoes,sponge shoes,海绵鞋
+snow grass block,snow grass block,积雪草方块
+snowy leaf block,snowy leaf block,积雪树叶方块
+sodium lamp,sodium lamp,钠制灯
+sponge block,sponge block,多孔体
+sponge shoes,sponge shoes,海绵拖鞋
 squirrel ring,squirrel ring,松鼠戒指
 star,star,星星
 star block,star block,星星方块
 steel window block,steel window block,钢制窗户
 stick,stick,木棍
 stone block,stone block,石头方块
-stranger,stranger,陌生者
+stranger,stranger,陌生人
 string,string,线
 string bracelet,string bracelet,线绳手链
-style seed,string bracelet,风格种子
+style seed,string bracelet,服饰种子
 sulfur,sulfur,硫磺
 sulfur block,sulfur block,硫磺块
 sulfur ore block,sulfur ore block,硫磺矿石
 sulfurous sword,sulfurous sword,硫磺剑
 sun block,sun block,太阳方块
-sunny capsule,sunny capsule,晴天胶囊
-svargaqualia block,svargaqualia block,感质天界方块
+sunny capsule,sunny capsule,小晴天胶囊
+svargaqualia block,svargaqualia block,天界感质传送门
 sword,sword,剑
 t,t,t
 teeth,teeth,牙齿
 temple brick block,temple brick block,神庙砖方块
-tendril block,tendril block,触须方块
-tendril ore block,tendril ore block,触须矿石
-tendril pick,tendril pick,触须十字镐
-tendril rapier,tendril rapier,触须迅捷剑
+tendril block,tendril block,卷须方块
+tendril ore block,tendril ore block,卷须矿石
+tendril pick,tendril pick,卷须十字镐
+tendril rapier,tendril rapier,卷须迅捷剑
 thorn,thorn,荆棘
 thorn talisman,thorn talisman,荆棘护符
 tigerstone block,tigerstone block,虎纹石方块
-tile block,tile block,瓦片方块
+tile block,tile block,砖瓦方块
 tofu,tofu,豆腐
 tooth block,tooth block,牙齿方块
 toy dog capsule,toy dog capsule,玩具狗胶囊
-tungsten appendage,tungsten appendage,钨制肢体
+tungsten appendage,tungsten appendage,钨制附肢
 u,u,u
 v,v,v
 varna,varna,种姓
@@ -495,18 +495,18 @@ vermin vigil block,vermin vigil block,守望活体方块
 visognia flower,visognia flower,幻视之花
 vocal string,vocal string,声带
 vomit block,vomit block,呕吐物
-vyrm capsule,vyrm capsule,维姆胶囊
+vyrm capsule,vyrm capsule,大无足虫胶囊
 w,w,w
 wallpaper block,wallpaper block,壁纸方块
 water,water,水
-water bomb,water bomb,水弹
+water bomb,water bomb,水炸弹
 water bucket,water bucket,水桶
 wheat,wheat,小麦
 white lamp,white lamp,白色灯
 white plastic block,white plastic block,白色塑料方块
-white tile block,white tile block,白色瓦块
+white tile block,white tile block,白色砖块
 wildebeest capsule,wildebeest capsule,角马胶囊
-wood scrap block,wood scrap block,碎木
+wood scrap block,wood scrap block,碎木块
 wooden pick,wooden pick,木十字镐
 wool,wool,羊毛
 worm capsule,worm capsule,蠕虫胶囊
@@ -515,8 +515,8 @@ x,x,x
 y,y,y
 yellow lamp,yellow lamp,黄色灯
 yellow plastic block,yellow plastic block,黄色塑料方块
-yhvh block,yhvh block,雅威方块
-yhvh capsule,yhvh capsule,雅威胶囊
+yhvh block,yhvh block,耶和华方块
+yhvh capsule,yhvh capsule,耶和华胶囊
 z,z,z
 zany block,zany block,滑稽方块
 zany thing,zany thing,滑稽的小玩意
@@ -530,26 +530,26 @@ hate surge,hate surge,仇恨激涌
 life surge,life surge,生命激涌
 planter,planter,播种者
 qualia link,qualia link,感质链接
-tiamana leyline,tiamana leyline,提亚玛纳地脉
+tiamana leyline,tiamana leyline,提亚玛纳能量脉
 vermin shaper,vermin shaper,活体塑造者
 wandering spirit,wandering spirit,游荡之灵
+increase paraphernalia space by %d.,increase paraphernalia space by %d.,提升个人装具空间 %d。
+increase inventory space by %d.,increase inventory space by %d.,提升物品栏空间 %d。
 receive an empty capsule.,receive an empty capsule.,获得一个空胶囊。
 "receive three seeds for planting.
 ","receive three seeds for planting.
 ",获得三颗播种种子。
 receive a block of gold.,receive a block of gold.,获得一个金块。
-receive a necklace that randomizes your rebirth position when worn.,receive a necklace that randomizes your rebirth position when worn.,获得一条项链，佩戴时将随机化你的重生位置。
-receive a portal to your personal qualia.,receive a portal to your personal qualia.,获得一个通往你个人感质空间的传送门。
-receive a block that allows you to set your rebirth position.,receive a block that allows you to set your rebirth position.,获得一个允许你设定重生位置的方块。
+receive a necklace that randomizes your rebirth position when worn.,receive a necklace that randomizes your rebirth position when worn.,获得一条佩戴时随机重生位置的项链。
+receive a portal to your personal qualia.,receive a portal to your personal qualia.,获得一个通往你个人感质空间的传送门方块。
+receive a block that allows you to set your rebirth position.,receive a block that allows you to set your rebirth position.,获得一个设定重生位置的方块。
 "receive three cache cubes.
 ",receive three cache cubes.,获得三个缓存方块。
-receive a pendant that guides you towards a tiamana leyline.,receive a pendant that guides you towards a tiamana leyline.,获得一个指引你前往提亚玛纳地脉的挂饰。
-increase paraphernalia space by %d.,increase paraphernalia space by %d.,提升 %d 点个人装具空间。
-increase inventory space by %d.,increase inventory space by %d.,提升 %d 点物品栏空间。
-increase lung by %d.,increase lung by %d.,提升 %d 点双肺属性。
-increase faith by %d.,increase faith by %d.,提升 %d 点信仰属性。
-increase hate by %d.,increase hate by %d.,提升 %d 点仇恨属性。
-increase heart by %d.,increase heart by %d.,提升 %d 点心脏属性。
+receive a pendant that guides you towards a tiamana leyline.,receive a pendant that guides you towards a tiamana leyline.,获得一个指引你前往提亚玛纳能量脉的挂饰。
+increase lung by %d.,increase lung by %d.,提升呼吸属性 %d。
+increase faith by %d.,increase faith by %d.,提升信仰属性 %d。
+increase hate by %d.,increase hate by %d.,提升仇恨属性 %d。
+increase heart by %d.,increase heart by %d.,提升心脏属性 %d。
 display,display,显示
 audio,audio,音频
 controls,controls,控制
@@ -615,13 +615,13 @@ blasphemites,blasphemites,亵渎之众
 trauma offering,trauma offering,创伤献礼
 fractal worm,fractal worm,分形蠕虫
 wild life research,wild life research,野生生物研究
-Unblinking Field,Unblinking Field,无瞬之野
+Unblinking Field,Unblinking Field,不瞑原野
 Sphere,Sphere,球体
 worms,worms,蠕虫们
 spiders,spiders,蜘蛛们
 bubbles,bubbles,梦泡类
 enoch's ville,enoch's ville,以诺镇
-the bee's knees,the bee's knees,蜂之膝
+the bee's knees,the bee's knees,蜂靡一时
 he's stranded,he's stranded,他困于中
 true bubblebear,true bubblebear,真·泡泡熊
 bubble grid,bubble grid,梦泡网格
@@ -634,7 +634,7 @@ keeper of life,keeper of life,生命守望者
 please check your,please check your,检查你的——
 ovioli ,ovioli ,奥维奥利
 a vision ,a vision ,幻象
-ifo,ifo,IFO
+ifo,ifo,是明飞行物
 Blueprint,Blueprint,蓝图
 cube worship,cube worship,立方体崇拜
 city,city,城市
@@ -642,21 +642,21 @@ cursed photo,cursed photo,诅咒的相片
 peace,peace,宁静
 Milkae,Milkae,米尔卡
 rosary,rosary,念珠
-tome,tome,典籍
+tome,tome,感质录
 waveforms,waveforms,波形
 bloom,bloom,花期
 heart,heart,心脏
-lung,lung,双肺
+lung,lung,呼吸
 power,power,力量
 speed,speed,速度
 leap,leap,跳跃
-slip,slip,灵活
-mush,mush,柔软
-fluid,fluid,流体
+slip,slip,滑行
+mush,mush,缓冲
+fluid,fluid,水性
 mass,mass,质量
 span,span,距离
 hate,hate,仇恨
-faith,faith,信仰
+faith,faith,虔诚
 druj,druj,不洁
 blocks,blocks,方块
 degrees,degrees,度
@@ -714,10 +714,10 @@ CONTROLS,CONTROLS,控制
 SHIFT,SHIFT,Shift
 CTRL,CTRL,Ctrl
 MIDDLE MOUSE,MIDDLE MOUSE,鼠标中键
-wrath,wrath,狂怒
-Wrath,Wrath,狂怒
+wrath,wrath,受难
+Wrath,Wrath,受难
 divine,divine,成为神
-turvy,turvy,颠倒世界
+turvy,turvy,世界翻转
 "Offer
 ","Offer
 ",献予
@@ -777,17 +777,29 @@ May your death bring forth new life.,May your death bring forth new life.,愿你
 despondent vermin...,despondent vermin...,枯槁的活体啊……
 may your death bring forth new life.,may your death bring forth new life.,愿你的腐坏，滋养出新的生命。
 bird,bird,飞鸟
-the tiamana flow continues to increase in your interlinked bubbles.,the tiamana flow continues to increase in your interlinked bubbles.,提亚玛纳之流在你交织的梦泡中猛长。
+the tiamana flow continues to increase in your interlinked bubbles.,the tiamana flow continues to increase in your interlinked bubbles.,提亚玛纳在你交织的梦泡中猛长。
 [shake rate=5.0 level=6 connected=0]Despondent vermin...[/shake] ,[shake rate=5.0 level=6 connected=0]Despondent vermin...[/shake] ,[shake rate=5.0 level=6 connected=0]枯槁的活体啊……[/shake] 
 [shake rate=5.0 level=6 connected=0]May your death bring forth new life.[/shake],[shake rate=5.0 level=6 connected=0]May your death bring forth new life.[/shake],[shake rate=5.0 level=6 connected=0]愿你的腐坏，滋养出新的生命。[/shake]
 "every minute that i sleep, my mind erodes a little more.","every minute that i sleep, my mind erodes a little more.",每度过一分梦寐，我的心智便消磨一分。
-Even the dust-born creatures overflow with tiamana.,Even the dust-born creatures overflow with tiamana.,哪怕是卑微如尘的生灵，也早已被提亚玛纳彻底浸透。
-The path unto oblivion is unbarred.,The path unto oblivion is unbarred.,通往虚无的门扉，已然敞开。
+Even the dust-born creatures overflow with tiamana.,Even the dust-born creatures overflow with tiamana.,凡尘所生之灵，皆受提亚玛纳浸润。
+Countless sparks of consciousness in a sea of chaos…,Countless sparks of consciousness in a sea of chaos…,那混沌汪洋中，万千意识如星火散落……
+coalescing into one at the end of space and time.,coalescing into one at the end of space and time.,直至时空的尽头，终汇流为一。
+Where the seven suns would burn away the self…,Where the seven suns would burn away the self…,若非有这天幕遮蔽——
+were it not for the firmament.,were it not for the firmament.,那七阳轮转之处，自我必将焚为飞灰。
+He fashioned this for thee.,He fashioned this for thee.,此世万象，皆是祂因尔而造。
+"A paradise unending, for thou art but fleeting vermin.","A paradise unending, for thou art but fleeting vermin.",予尔一座永恒乐园，因尔不过是朝生暮死之物。
+And still thou treadest upon holy ground?,And still thou treadest upon holy ground?,既蒙此恩，仍敢玷污圣地？
+...,...,……
+"Go on, then.","Go on, then.",向歧途前行罢。
+Thy trespasses shall be thy undoing.,Thy trespasses shall be thy undoing.,所犯之罪，终将导向尔的灭亡。
+The path unto oblivion is unbarred.,The path unto oblivion is unbarred.,通向虚无之途，现已洞开无阻。
+When thou art ready...,When thou art ready...,待尔预备……
+wilt thou not walk with me?,wilt thou not walk with me?,可愿与我同行？
 Credits,Credits,制作人员
 Special Thanks To:,Special Thanks To:,特别鸣谢：
-"The 115+ playtesters for helping shape the game,","The 115+ playtesters for helping shape the game,",感谢 115+ 位测试人员，你们共同塑造了这款游戏；
-"the users of freesound.org for their amazing samples,","the users of freesound.org for their amazing samples,",感谢 freesound.org 的用户们提供了惊艳的音效采样；
-"my friends and family for their love and support,","my friends and family for their love and support,",感谢我亲友们的爱与支持；
+"The 115+ playtesters for helping shape the game,","The 115+ playtesters for helping shape the game,",115+ 位测试人员，是你们共同塑造了这款游戏；
+"the users of freesound.org for their amazing samples,","the users of freesound.org for their amazing samples,",freesound.org 用户们的优质音频素材；
+"my friends and family for their love and support,","my friends and family for their love and support,",亲友们的爱与支持；
 "...and you, for playing Lucid Blocks.","...and you, for playing Lucid Blocks.",……以及屏幕前的你，感谢你游玩《Lucid Blocks》。
 drown the firmament,drown the firmament,浸入天幕的深处
 "** STOP: 0x0000071
@@ -832,6 +844,6 @@ Rebooting Saptasuryah tether at last visited node... Please be patient. Do not a
 表型组转储：
 %s
 
-正在最近访问的节点重启“萨普塔苏里亚”系带……请耐心等待，莫失清醒。"
+正在最近访问的节点重启“萨普塔苏里亚”系带……请耐心等待，保持冷静。"
 2.8.4,2.8.4,版本2.8.4 | 汉化制作：Bilibili升雾代课老湿
-2.8.2,2.8.2,版本2.8.2 | 汉化制作：Bilibili升雾代课老湿
+2.8.5,2.8.x,版本2.8.5 | 汉化制作：Bilibili升雾代课老湿
