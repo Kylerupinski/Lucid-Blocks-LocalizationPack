@@ -180,7 +180,7 @@ bg_color = Color(0.085, 0.085, 0.1, 0.79607844)
 [sub_resource type="FontVariation" id="FontVariation_ci5du"]
 fallbacks = Array[Font]([ExtResource("17_u32q2")])
 base_font = ExtResource("16")
-spacing_top = -6
+spacing_top = -5
 spacing_bottom = -4
 
 [resource]

@@ -90,7 +90,8 @@ This is an expandable Lucid Blocks language pack. The game will automatically se
 - 修复了升级界面文本未被翻译的问题
 - 重构了翻译管理器脚本
 
-### 2026-03-17 - 1.4.5
+### 2026-03-17 - 1.4.6
 
 - 修复了教程界面未被翻译的问题
+- 修复了一个可能存在的报错
 
